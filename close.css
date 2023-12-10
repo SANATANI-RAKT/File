@@ -1,0 +1,59 @@
+.wrapper .icon-close{
+    position: absolute;
+top: 0;
+right: 0;
+width: 45px;
+height: 45px;
+background: #162938;
+font-size: 2em;
+color : #fff;
+display: flex;
+justify-content:center ;
+align-items: center;
+border-bottom-left-radius: 20px;
+cursor: pointer;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+.wrapper .source{
+    font-size: smaller;
+     color: #162938;
+    text-align: center;
+   
+    }
+
+    .wrapper .source{
+font-size: medium;
+
+color: #162938;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper .source  a {
+    color: #f47309;
+    text-decoration: #ea6f04;
+   font-weight: 600;
+   
+   }
+   .wrapper .source  a:hover{
+   
+       text-decoration: underline;
+   }

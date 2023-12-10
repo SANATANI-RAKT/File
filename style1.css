@@ -1,0 +1,184 @@
+
+
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba( 0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+overflow: hidden;
+}
+
+
+.wrapper .form-box{
+
+width:1000px;
+padding:40px;
+
+}
+
+
+.form-box h2 {
+
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+
+}
+
+.input-box {
+position: relative;
+width: 300px;
+height: 50px;
+border-bottom: 2px solid #162938;
+margin: 30px 0;
+}
+
+.form-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+    }
+    
+.input-box input:focus~label,
+.input-box input:valid~label {
+top: -5px;
+}
+
+    .input-box input{
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none; 
+font-size: .4cm;
+color: #162938;
+font-weight: 600;
+padding: 0 35px 0 5px;
+font-style: italic;
+}
+
+.input-box .icon{
+position: absolute;
+right: 8px;
+font-size: 1.2em;
+color: #162938;
+line-height: 57px;
+}
+.remember-forgot{
+
+    font-size: .5cm;
+    color: #162938;
+    font-weight: 500;
+margin: -15px 0 15px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.btn{
+
+width: 100%;
+height: 45px;
+background-color: #162938;
+border: antiquewhite;
+outline: #fff;
+border-radius: 6px;
+cursor: pointer;
+font-size: medium;
+color: #fff;
+font-weight: 500;
+font-style: italic;
+
+}
+
+
+
+
+
+.btn label input{
+    accent-color: #ffffff;
+    margin-right: 3px;
+    }
+    
+    .btn a {
+        color: #ffffff;
+        text-decoration: none;
+       font-weight: 600;
+    }
+
+
+
+
+
+
+.remember-forgot{
+    font-size: medium;
+    
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: -15px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+accent-color: #162938;
+margin-right: 3px;
+}
+
+.remember-forgot  a {
+    color: #162938;
+    text-decoration: none;
+   font-weight: 600;
+}
+
+.remember-forgot  a:hover{
+color: #162938;
+text-decoration: underline;
+}
+
+.login-register{
+    font-size: smaller;
+    
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.login-register{
+font-size: medium;
+
+color: #162938;
+text-align: center;
+font-weight: 500;
+margin: 25px 0 10px;
+}
+
+.login-register p a {
+ color: #162938;
+ text-decoration: none;
+font-weight: 600;
+
+}
+.login-register p a:hover{
+
+    text-decoration: underline;
+}
